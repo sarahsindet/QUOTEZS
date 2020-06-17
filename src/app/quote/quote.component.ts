@@ -10,9 +10,9 @@ export class QuoteComponent implements OnInit {
   
 
   quotes: Quote[] = [
-    new Quote('Aspire to inspire before you expire', 'Rex Hans', 'Faith',0,0),
-    new Quote('Think big, Work smart', 'Ali Mohammed', 'Fadhul',0,0),
-    new Quote('Everyone is born intelligent.It takes hardwork to die a fool', 'Lucy Serwa', 'Ian',0,0),
+    new Quote('Aspire to inspire before you expire', 'Rex Hans', 'Faith',0,1),
+    new Quote('Think big, Work smart', 'Ali Mohammed', 'Fadhul',0,2),
+    new Quote('Everyone is born intelligent.It takes hardwork to die a fool', 'Lucy Serwa', 'Ian',0,3),
   ];
 
   delete(i) {
