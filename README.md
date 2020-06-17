@@ -34,8 +34,8 @@ Placing the highlighter to show the quote with the highest votes
     4. Angular JS
 
 ## Support and contact details
-Contact me on cynthiaobu940@gmail.com for any comments, reviews or advice.
+Contact me on sarahsindet@gmail.com for any comments, reviews or advice.
 
 ### License
-Copyright (c) **Cynthia Oduol**
+Copyright (c) *Sarah Sindet**
 
