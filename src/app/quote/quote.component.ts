@@ -11,7 +11,7 @@ export class QuoteComponent implements OnInit {
 
   quotes: Quote[] = [
     new Quote('Do your best until your good is better and your better is best', 'Rex Hans', 'Faith',0,1),
-    new Quote('Think big, Work smart', 'Ali Mohammed', 'Fadhul',0,2),
+    new Quote('Every master was once a Bigginer', 'Ali Mohammed', 'Fadhul',0,2),
     new Quote('Everyone is born intelligent.It takes hardwork to die a fool', 'Lucy Serwa', 'Ian',0,3),
   ];
 
