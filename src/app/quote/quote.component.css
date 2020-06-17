@@ -10,3 +10,26 @@
   .container-fluid{
     background-color: aquamarine;
   }
+  .del{
+    color:red;
+    float:right; 
+  }
+  .upvote{
+    color:rgb(226, 142, 31);
+    
+  }
+  .downvote{
+    color:rgb(226, 142, 31);
+    
+  }
+  .card{
+    margin: 20px;
+    text-align: center;
+    width: 400px;
+  }
+  .card-header{
+    background-color: aquamarine;
+  }
+  h6{
+    float: right;
+  }
