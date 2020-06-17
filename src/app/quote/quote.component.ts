@@ -11,8 +11,8 @@ export class QuoteComponent implements OnInit {
 
   quotes: Quote[] = [
     new Quote('Sarah','Do your best until your good is better and your better is best',new Date(20/8/2009)),
-    new Quote('livingstone','Courage is to beat every odds in life',new Date(6/1/2000)),
-    new Quote('Barrack Obama','Yes We Can',new Date(13/12/1996)),
+    new Quote('Livingstone','Courage is to beat every odds in life',new Date(6/1/2000)),
+    new Quote('Lupita Anyongo','Dreams are valid no matter where you come from',new Date(13/12/1996)),
   
   ];
 
