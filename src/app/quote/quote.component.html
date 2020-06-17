@@ -6,3 +6,33 @@
           <h3>{{quote.text}}</h3>
           <h6>{{quote.author}}</h6>
         </div>
+        <div class="card-body">
+            <p>Posted by:{{quote.submitter}}</p>
+            <span (click)="delete(i) " class="del">
+              <i class="fa fa-trash"></i>
+            </span>
+          </div>
+    
+          <div class="card-footer">
+            <div class="row">
+              <div class="col-3 action">
+                  {{quote.upvotes}}
+              </div>
+              <div class="col-3 action upvote" (click)="quote.upvotes = quote.upvotes + 1">
+                <i class="fa fa-thumbs-up"></i>
+              </div>
+    
+              <div class="col-3 action downvote" (click)="quote.downvotes = quote.downvotes + 1">
+                <i class="fa fa-thumbs-down"></i>
+              </div>
+              <div class="col-3 action">
+                  {{quote.downvotes}}
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
+      </div>
+    </div>
